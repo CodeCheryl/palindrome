@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+  
+  div {
+    padding: 5em;
+    background-color: #800060;
+    color: #fff;
+    width: 30vw;
+    margin: 0 auto;
+    border-radius: 45px;
+  }
+  
+  body {
+    background-color: #340027;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  input {
+    height: 1.5em;
+    width: 100%;
+    margin: 2em 0;
+  }
+  
+  button {
+    padding: 1em;
+    border-radius: 25px;
+  }
+  
+  @media (max-width: 700px) {
+    div{
+      width: 50vw;
+    }
+    button {
+      background-color: #fff;
+    }
+  }
