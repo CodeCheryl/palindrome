@@ -15,3 +15,10 @@ function palindrome(str) {
       return;
     }
   }
+
+  document.getElementById("str").addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+     event.preventDefault();
+      palindrome();
+    }
+  });
